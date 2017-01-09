@@ -38,4 +38,14 @@ public class HomeController {
 
         return "home";
     }
+
+    @RequestMapping(value = "/text", method = RequestMethod.GET)
+    public String textPage() {
+        return "text";
+    }
+
+    @RequestMapping(value = "/graph", method = RequestMethod.GET)
+    public String graphPage() {
+        return "graph";
+    }
 }
