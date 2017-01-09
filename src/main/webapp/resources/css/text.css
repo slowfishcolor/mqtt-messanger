@@ -1,0 +1,10 @@
+.input-form {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.left-form input[type="text"] {
+    min-width: 300px;
+}
