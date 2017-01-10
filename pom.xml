@@ -48,6 +48,12 @@
       <artifactId>spring-orm</artifactId>
       <version>${spring.version}</version>
     </dependency>
+    <!-- JMS -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-jms</artifactId>
+      <version>${spring.version}</version>
+    </dependency>
 
     <!-- AspectJ -->
     <dependency>

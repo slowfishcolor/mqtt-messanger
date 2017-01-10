@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:amq="http://activemq.apache.org/schema/core"
+       xmlns:jms="http://www.springframework.org/schema/jms"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                          http://activemq.apache.org/schema/core http://activemq.apache.org/schema/core/activemq-core.xsd
+                          http://www.springframework.org/schema/jms http://www.springframework.org/schema/jms/spring-jms-3.2.xsd">
+
+    <amq:connectionFactory id="connectionFactory" brokerURL="tcp://localhost:61616" />
+
+    <bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate" >
+        <property name="connectionFactory">
+            <ref bean="connectionFactory" />
+        </property>
+    </bean>
+
+    <amq:queue id="testQueue" physicalName="mqttmessanger.queue" />
+    <amq:topic id="testTopic" physicalName="mqttmessanger.topic" />
+
+
+    <bean id="simpleMessageConvertor" class="org.springframework.jms.support.converter.SimpleMessageConverter"/>
+
+    <bean id="topicListenerAdapter" class="org.springframework.jms.listener.adapter.MessageListenerAdapter">
+        <property name="delegate">
+            <bean class="com.sfc.mqttmessanger.amq.TextHandler"/>
+        </property>
+        <property name="defaultListenerMethod" value="handleText"/>
+        <property name="messageConverter" ref="simpleMessageConvertor"/>
+    </bean>
+
+    <bean id="topicListenerAdapterAdapter" class="org.springframework.jms.listener.DefaultMessageListenerContainer">
+        <property name="connectionFactory" ref="connectionFactory"/>
+        <property name="destination" ref="testTopic"/>
+        <property name="messageListener" ref="topicListenerAdapter"/>
+    </bean>
+
+
+
+
+</beans>

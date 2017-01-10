@@ -20,6 +20,8 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.2.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-orm:4.2.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jms:4.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-messaging:4.2.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.6.10" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.6" />
           <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.6.6" />
