@@ -15,8 +15,9 @@
         </property>
     </bean>
 
-    <amq:queue id="testQueue" physicalName="mqttmessanger.queue" />
-    <amq:topic id="testTopic" physicalName="mqttmessanger.topic" />
+    <amq:queue id="testQueue" physicalName="messanger.queue" />
+    <amq:topic id="serverTopic" physicalName="messanger.topic.server" />
+    <amq:topic id="deviceTopic" physicalName="messanger.topic.device" />
 
 
     <bean id="simpleMessageConvertor" class="org.springframework.jms.support.converter.SimpleMessageConverter"/>
@@ -29,9 +30,14 @@
         <property name="messageConverter" ref="simpleMessageConvertor"/>
     </bean>
 
-    <bean id="topicListenerAdapterAdapter" class="org.springframework.jms.listener.DefaultMessageListenerContainer">
+    <bean id="serverTopicListenerAdapterAdapter" class="org.springframework.jms.listener.DefaultMessageListenerContainer">
         <property name="connectionFactory" ref="connectionFactory"/>
-        <property name="destination" ref="testTopic"/>
+        <property name="destination" ref="serverTopic"/>
+        <property name="messageListener" ref="topicListenerAdapter"/>
+    </bean>
+    <bean id="deviceTopicListenerAdapterAdapter" class="org.springframework.jms.listener.DefaultMessageListenerContainer">
+        <property name="connectionFactory" ref="connectionFactory"/>
+        <property name="destination" ref="deviceTopic"/>
         <property name="messageListener" ref="topicListenerAdapter"/>
     </bean>
 
