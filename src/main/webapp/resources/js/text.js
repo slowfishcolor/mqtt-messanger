@@ -65,8 +65,9 @@ $(document).ready(function () {
 
     /**
      * send message
+     * use submit() instead of onclick to response to 'enter'
      */
-    $('#send-button').click(function () {
+    $('#send-form').submit(function () {
         var text = $('#send-message').val();
         if (text) {
             // send message
@@ -79,5 +80,8 @@ $(document).ready(function () {
             $(d).hide().prependTo($('#send-list')).slideDown();
             $('#send-message').val("");
         }
-    })
+        // do not submit
+        return false;
+        }
+    );
 });
