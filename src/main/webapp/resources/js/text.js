@@ -84,4 +84,10 @@ $(document).ready(function () {
         return false;
         }
     );
+    /**
+     * disconnect when page is closed
+     */
+    $(window).bind('beforeunload',function(){
+        client.disconnect();
+    });
 });
