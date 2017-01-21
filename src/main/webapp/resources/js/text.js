@@ -9,7 +9,7 @@ $(document).ready(function () {
      * connect and subscribe
      */
     $('#subscribe-button').click(function () {
-        var url = "ws://localhost:61614/stomp";
+        var url = "ws://www.prophet-xu.com:61614/stomp";
         var login = "";
         var passcode = "";
         receiveDestination = "/topic/" + $('#topic').val();

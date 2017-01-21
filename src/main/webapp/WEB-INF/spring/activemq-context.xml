@@ -7,7 +7,7 @@
                           http://activemq.apache.org/schema/core http://activemq.apache.org/schema/core/activemq-core.xsd
                           http://www.springframework.org/schema/jms http://www.springframework.org/schema/jms/spring-jms-3.2.xsd">
 
-    <amq:connectionFactory id="connectionFactory" brokerURL="tcp://localhost:61616" />
+    <amq:connectionFactory id="connectionFactory" brokerURL="tcp://www.prophet-xu.com:61616" />
 
     <bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate" >
         <property name="connectionFactory">
