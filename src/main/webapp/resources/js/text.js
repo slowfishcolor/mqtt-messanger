@@ -14,7 +14,7 @@ $(document).ready(function () {
         var passcode = "";
         receiveDestination = "/topic/" + $('#topic').val();
 
-        sendDestination = "/topic/messanger.topic.device"
+        sendDestination = "/topic/messanger.topic.device";
 
         // Stomp client
         client = Stomp.client(url);
