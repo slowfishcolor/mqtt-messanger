@@ -42,15 +42,33 @@
                 </div>
             </nav>
             <div class="jumbotron">
-                <h1>
-                    MQTT Messanger
-                </h1>
                 <p>
-                    MQTT messanger is a simple demo, aiming to dealing with MQTT messages.
+                    MQTT Messanger Graph
                 </p>
-                <p>
-                    MQTT Messanger Transfer using Active MQ as message broker, use WebSocket to communicate with the server.
-                </p>
+            </div>
+            <div class="row clearfix">
+                <div class="col-md-2 column">
+                    <ul class="nav nav-stacked nav-pills">
+                        <li class="active">
+                            <a id="temp_button">Temperature</a>
+                        </li>
+                        <li>
+                            <a id="humidity_button">Humidity</a>
+                        </li>
+                        <li>
+                            <a id="pressure_button">Pressure</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-10 column">
+                    <div id="temp-chart" style="height: 450px"></div>
+                </div>
+                <div class="col-md-10 column">
+                    <div id="humidity-chart" style="height: 450px"></div>
+                </div>
+                <div class="col-md-10 column">
+                    <div id="pressure-chart" style="height: 450px"></div>
+                </div>
             </div>
         </div>
     </div>
@@ -62,6 +80,12 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
 <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+<!-- stomp -->
+<script th:src="@{/resources/js/stomp.js}"></script>
+<!-- ECharts -->
+<script src="//cdn.bootcss.com/echarts/3.3.2/echarts.common.min.js"></script>
+<script th:src="@{/resources/js/graph.js}"></script>
 
 </body>
 </html>
