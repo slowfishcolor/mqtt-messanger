@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <link rel="icon" th:href="@{/resources/image/icon.png}">
 
     <title>MQTT Messanger</title>
 
@@ -43,15 +43,17 @@
                 </div>
             </nav>
             <div class="jumbotron">
-                <h1>
-                    MQTT Messanger
-                </h1>
+                <img th:src="@{/resources/image/logo-big.png}"/>
+                <p> </p>
                 <p>
                     MQTT messanger is a simple demo, aiming to dealing with MQTT messages.
                 </p>
                 <p>
                     MQTT Messanger Transfer using Active MQ as message broker, use WebSocket to communicate with the server.
                 </p>
+                <p> </p>
+                <p>In text page, you can send or receive messages with specific topics. Default topic will let you connect to a raspberry pi, which answers to three command: temp, humidity and pressure. </p>
+                <p>In graph page, you can view the real time data graphically from a raspberry pi. </p>
             </div>
         </div>
     </div>

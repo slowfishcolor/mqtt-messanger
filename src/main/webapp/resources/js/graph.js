@@ -257,47 +257,9 @@ $(document).ready(function () {
     }
 
 
-
-
-
     showTempCharts();
     showHumidityCharts();
     showPressureCharts();
-
-    // setInterval(function () {
-    //     if(tempData.length > 60) {
-    //         tempData.shift();
-    //     }
-    //     tempData.push(randomData());
-    //     tempCharts.setOption({
-    //         series: [{
-    //             data: tempData
-    //         }]
-    //     })
-    // }, 1000);
-    // setInterval(function () {
-    //     if(humidityData.length > 60) {
-    //         humidityData.shift();
-    //     }
-    //     humidityData.push(randomData());
-    //     humidityCharts.setOption({
-    //         series: [{
-    //             data: humidityData
-    //         }]
-    //     })
-    // }, 1000);
-    // setInterval(function () {
-    //     if(pressureData.length > 60) {
-    //         pressureData.shift();
-    //     }
-    //     pressureData.push(randomData());
-    //     pressureCharts.setOption({
-    //         series: [{
-    //             data: pressureData
-    //         }]
-    //     })
-    // }, 1000);
-
 
 
     $('#temp_button').click(function () {
