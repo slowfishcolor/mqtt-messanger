@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="199.99728mm"
+   height="24.580696mm"
+   viewBox="0 0 199.99728 24.580696"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.0 r15299"
+   sodipodi:docname="messanger-logo-1.svg">
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       only_selected="false"
+       apply_with_weight="true"
+       apply_no_weight="true"
+       helper_size="0"
+       steps="2"
+       weight="33.333333"
+       is_visible="true"
+       id="path-effect35"
+       effect="bspline" />
+    <inkscape:path-effect
+       only_selected="false"
+       apply_with_weight="true"
+       apply_no_weight="true"
+       helper_size="0"
+       steps="2"
+       weight="33.333333"
+       is_visible="true"
+       id="path-effect31"
+       effect="bspline" />
+    <inkscape:path-effect
+       only_selected="false"
+       apply_with_weight="true"
+       apply_no_weight="true"
+       helper_size="0"
+       steps="2"
+       weight="33.333333"
+       is_visible="true"
+       id="path-effect27"
+       effect="bspline" />
+    <inkscape:path-effect
+       only_selected="false"
+       apply_with_weight="true"
+       apply_no_weight="true"
+       helper_size="0"
+       steps="2"
+       weight="33.333333"
+       is_visible="true"
+       id="path-effect23"
+       effect="bspline" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="257.3321"
+     inkscape:cy="-129.162"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-7.0193538,-80.024697)">
+    <g
+       transform="matrix(0.18656257,0,0,0.18656257,6.4429167,70.671967)"
+       id="layer1-8"
+       inkscape:label="Layer 1">
+      <path
+         transform="scale(0.26458333)"
+         inkscape:connector-curvature="0"
+         id="path51"
+         d="m 271.72514,686.25989 c -2.38992,-1.37061 -4.0046,-3.26904 -6.19566,-7.28447 -0.90205,-1.6531 -9.88229,-48.17151 -20.43845,-105.87278 L 226.26159,470.17857 119.73074,413.73685 C 54.465235,379.15816 12.919634,356.58422 12.476375,355.45985 c -0.397935,-1.00941 -0.755468,-3.67495 -0.794517,-5.92343 -0.05977,-3.44157 0.52965,-4.67466 3.72679,-7.79658 2.088784,-2.03965 5.157123,-4.16324 6.81853,-4.71909 1.661408,-0.55585 163.718272,-33.98109 360.126362,-74.27831 333.16938,-68.35665 357.78347,-73.26767 367.21823,-73.26767 12.95307,0 14.60274,0.95041 14.60274,8.4129 0,2.89734 -0.83512,8.21274 -1.85581,11.81201 -1.92766,6.79756 -169.89708,462.67961 -172.57916,468.39328 -2.40273,5.11854 -6.23186,8.3804 -9.80308,8.35078 -8.65134,-0.0717 -15.55759,-4.08355 -84.46253,-49.06412 -37.50191,-24.48092 -68.74229,-44.83517 -69.42305,-45.23166 -0.74851,-0.43594 -29.5635,18.26236 -72.90019,47.30557 -63.86165,42.79854 -72.08387,48.0231 -75.53385,47.99573 -2.12927,-0.0169 -4.78053,-0.55211 -5.8917,-1.18937 z m 79.32935,-73.55279 c 42.8376,-28.56662 51.50012,-34.725 50.34961,-35.79469 -2.22303,-2.06686 -67.5757,-43.98577 -68.57495,-43.98577 -0.49774,0 -1.32481,1.47734 -1.83795,3.28299 -1.39622,4.91311 -33.65527,109.06465 -34.30614,110.76079 -0.39113,1.01928 -0.0768,1.27819 1.03415,0.85188 0.87785,-0.33686 24.87872,-16.13871 53.33528,-35.1152 z m -54.11759,-48.77402 18.14069,-57.85803 151.91345,-111.5798 c 83.55239,-61.36889 152.14307,-111.95132 152.42371,-112.4054 0.28063,-0.45409 0.2936,-1.04226 0.0288,-1.30706 -0.3837,-0.38371 -261.16623,132.66665 -348.79609,177.95458 l -20.27058,10.47603 13.35648,76.05079 c 7.34607,41.82794 13.39949,76.16444 13.45206,76.30333 0.75134,1.98536 4.35961,-8.54351 19.75149,-57.63444 z"
+         style="fill:#269afc;fill-opacity:1;stroke:none;stroke-width:1.01174331;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:6.61458302px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#269afc;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="49.444862"
+       y="97.34967"
+       id="text28"><tspan
+         sodipodi:role="line"
+         id="tspan26"
+         x="49.444862"
+         y="97.34967"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.75555611px;font-family:DengXian;-inkscape-font-specification:'DengXian Bold';fill:#269afc;fill-opacity:1;stroke-width:0.26458332">MQTT Messanger</tspan></text>
+  </g>
+</svg>
